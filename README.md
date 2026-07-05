@@ -28,6 +28,30 @@ This is one of those “I can’t promise anything, but I’m giving it a shot�
 
 Like I said, I don’t expect miracles. But if Canonical isn’t going to solve this problem, I might as well try.
 
+## Quick start
+
+```
+git clone https://github.com/ZFordDev/Crafty-Snap.git
+cd Crafty-Snap
+```
+
+### Create a virtual environment
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+### Install KeyPlus in editable development mode
+```
+pip install -e .
+crafty-snap
+```
+### What to expect
+```
+Crafty-Snap: R&D for Snapcraft packaging.
+Nothing works yet, but it's a start.
+Stay tuned...
+```
+
 ## STANDARDS
 
 Because Crafty‑Snap is still in early R&D, it is not required to follow the full [ZFordDev standards](https://github.com/ZFordDev/ZFordDev/blob/main/STANDARDS.md) at this stage.
