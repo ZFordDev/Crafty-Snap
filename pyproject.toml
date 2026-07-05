@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crafty-snap"
+version = "0.0.1"
+description = "An automated Snapcraft generator that builds snap packages from your project's metadata."
+authors = [
+    { name = "ZFordDev", email = "zforddev@example.com" }
+]
+maintainers = [
+  { name = "ZFordDev", email = "zforddev@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+dependencies = [
+    "tomli; python_version < '3.10'",
+]
+
+[project.scripts]
+crafty-snap = "crafty_snap.__main__:main"
+
